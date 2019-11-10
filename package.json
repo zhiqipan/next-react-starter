@@ -1,0 +1,26 @@
+{
+  "name": "next-react-starter",
+  "version": "0.1.0",
+  "private": true,
+  "author": "PAN Zhiqi",
+  "scripts": {
+    "dev": "export NODE_ENV=development && node server.js",
+    "build": "export NODE_ENV=production && next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "yarn run build"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "next": "9.1.3",
+    "next-routes": "^1.4.2",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "semantic-ui-react": "^0.88.1"
+  },
+  "devDependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "node-sass": "^4.13.0",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^1.7.0"
+  }
+}
