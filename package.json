@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "dotenv": "^8.2.0",
     "dotenv-webpack": "^1.7.0"
   }
